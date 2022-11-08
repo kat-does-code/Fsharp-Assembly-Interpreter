@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WLpTnE9tRhl+SJX/oEHdPouOd1DR59dOzixVppXIwaXE0v6e6ED5YnBa0/7RGQZe+E6gOfnI3B4510WzwmrnRQ==",
+  "success": true,
+  "projectFilePath": "/workspaces/Fsharp-Assembly-Interpreter/Fsharp-Assembly-Interpreter/Fsharp-Assembly-Interpreter.fsproj",
+  "expectedPackageFiles": [
+    "/home/vscode/.nuget/packages/fsharp.core/6.0.7/fsharp.core.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
