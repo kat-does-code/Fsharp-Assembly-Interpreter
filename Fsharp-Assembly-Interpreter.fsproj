@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Fsharp_Assembly_Interpreter</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="src/AssemblyInfo.fs" />
+    <Compile Include="src/Types.fs" />
+    <Compile Include="src/Functions.fs" />
+    <Compile Include="src/Expressions.fs" />
+    <Compile Include="src/Parser.fs" />
+    <Compile Include="src/Interpreter.fs" />
+    <Compile Include="src/Program.fs" />
+  </ItemGroup>
+
+</Project>
