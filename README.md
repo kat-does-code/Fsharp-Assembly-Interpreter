@@ -31,7 +31,7 @@ Capabilities:
   - [Building the fundamentals](#building-the-fundamentals)
     - [Numbers](#numbers)
     - [Variables](#variables)
-    - [Functions and expression types](#functions-and-expression-types)
+    - [Functions and expressions](#functions-and-expressions)
 
 ## Getting started
 This project uses [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). Make sure to have [docker](https://docker.com/) installed. 
