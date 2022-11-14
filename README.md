@@ -120,7 +120,7 @@ As you can see, types are not mandatory to be explicitly defined. Even the `(val
 The easiest way to start working on an interpreter for a (made up) programming language is by defining what the computer does easiest which is plain math; addition, subtraction, division and multiplication being the simplest. Assembly has these operations clearly mapped out which is why I decided to use it albeit an interpreted form. Furthermore, the statefulness of assembly seemed ideal, a clear state before and after an operation is executed. However, I did cheat and not recreate input and output states; instead I used some state variables declared in [Functions.fs](src/Functions.fs).
 
 ## Building the fundamentals
-Starting by defining functions `add`, `sub`, `mul`, and `div, we learn about F#'s aerithmatic operations, which unsurprisingly are the same as most other languages I've come across. However, in assembly it is possible to add the contents of a register to the contents of another register, or add a constant value to a register. To make sure we account for both of these cases and none other ( it would be impossible to store a register or constant data in constant data ), we can use `pattern matching`, an epic concept that is now also available for C#.NET.
+Starting by defining functions `add`, `sub`, `mul`, and `div`, we learn about F#'s aerithmatic operations, which unsurprisingly are the same as most other languages I've come across. However, in assembly it is possible to add the contents of a register to the contents of another register, or add a constant value to a register. To make sure we account for both of these cases and none other ( it would be impossible to store a register or constant data in constant data ), we can use `pattern matching`, an epic concept that is now also available for C#.NET.
 
 > :warning: Another difference with assembly and this interpreter is I'm **not** using any registers as things can be achieved with variables just the same, which is a lot easier. 
 
@@ -196,4 +196,4 @@ Furthermore we can tag these by type:
 - Control flow expressions are used to (possibly conditionally) jump around your program, such as `JMP`, `CMP` and `CALL`.
 - Data expressions are used to move data around, such as `MOV`, `PUSH`, `POP`.
 
-Definitions of these can be viewed in [Expressions.fs](Expressions.fs).
+Definitions of these can be viewed in [Expressions.fs](src/Expressions.fs).
