@@ -18,7 +18,7 @@ Capabilities:
 - Data flow (moving data, functional stack)
     - `PUSH`
     - `POP`
-    ` `MOV`
+    - `MOV`
 - User defined interrupt table (system calls)
     - `INT 80` (`printf()`)
 
