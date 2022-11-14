@@ -21,6 +21,8 @@ Capabilities:
     - `MOV`
 - User defined interrupt table (system calls)
     - `INT 80` (`printf()`)
+    - `INT 69` (`exit()`)
+    - `INT 62` (`read()`)
 
 # Table of contents
 - [Story behind this project](#story-behind-this-project)
