@@ -1,5 +1,5 @@
 # Fsharp-Assembly-Interpreter
-Archived project pre 2018 (est. 2019)
+Archived project pre 2018 (est. 2017)
 
 This project functions as an Assembly interpreter off of a text file containing Assembly instructions.
 
