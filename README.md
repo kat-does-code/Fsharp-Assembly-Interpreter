@@ -1,5 +1,9 @@
+
 # Fsharp-Assembly-Interpreter
 Archived project pre 2018 (est. 2017)
+
+![Fsharp-Assembly-Interpreter](Fsharp-Assembly-Interpreter.png)
+
 
 This project functions as an Assembly interpreter off of a text file containing Assembly instructions.
 
